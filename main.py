@@ -5,7 +5,6 @@ from collections import defaultdict
 import re
 import time
 import os
-from dotenv import load_dotenv
 
 intents = discord.Intents.default()
 intents.messages = True
