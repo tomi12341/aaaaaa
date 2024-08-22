@@ -238,5 +238,6 @@ async def on_ready():
         print(f"Synced {len(synced)} command(s) to the guild(s).")
     except Exception as e:
         print(f"Failed to sync commands: {e}")
+load_dotenv()
 TOKEN = os.getenv('DISCORD_TOKEN')
 bot.run(TOKEN)
